@@ -14,6 +14,7 @@
 		E49A6EC0296774D700F2A5D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E49A6EBF296774D700F2A5D1 /* Assets.xcassets */; };
 		E49A6EC3296774D700F2A5D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E49A6EC1296774D700F2A5D1 /* LaunchScreen.storyboard */; };
 		E49A6ECC296777B100F2A5D1 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = E49A6ECB296777B100F2A5D1 /* Apollo */; };
+		E49A6ECF296779D300F2A5D1 /* schema.graphqls in Resources */ = {isa = PBXBuildFile; fileRef = E49A6ECE296779D300F2A5D1 /* schema.graphqls */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		E49A6EBF296774D700F2A5D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E49A6EC2296774D700F2A5D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E49A6EC4296774D700F2A5D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E49A6ECE296779D300F2A5D1 /* schema.graphqls */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = schema.graphqls; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,12 +63,21 @@
 				E49A6EB6296774D600F2A5D1 /* AppDelegate.swift */,
 				E49A6EB8296774D600F2A5D1 /* SceneDelegate.swift */,
 				E49A6EBA296774D600F2A5D1 /* ViewController.swift */,
+				E49A6ECD2967797100F2A5D1 /* GraphQL */,
 				E49A6EBC296774D600F2A5D1 /* Main.storyboard */,
 				E49A6EBF296774D700F2A5D1 /* Assets.xcassets */,
 				E49A6EC1296774D700F2A5D1 /* LaunchScreen.storyboard */,
 				E49A6EC4296774D700F2A5D1 /* Info.plist */,
 			);
 			path = ExampleApolloGraphQL;
+			sourceTree = "<group>";
+		};
+		E49A6ECD2967797100F2A5D1 /* GraphQL */ = {
+			isa = PBXGroup;
+			children = (
+				E49A6ECE296779D300F2A5D1 /* schema.graphqls */,
+			);
+			path = GraphQL;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E49A6ECF296779D300F2A5D1 /* schema.graphqls in Resources */,
 				E49A6EC3296774D700F2A5D1 /* LaunchScreen.storyboard in Resources */,
 				E49A6EC0296774D700F2A5D1 /* Assets.xcassets in Resources */,
 				E49A6EBE296774D600F2A5D1 /* Main.storyboard in Resources */,
