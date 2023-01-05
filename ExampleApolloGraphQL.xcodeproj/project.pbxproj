@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		E49A6EB7296774D600F2A5D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49A6EB6296774D600F2A5D1 /* AppDelegate.swift */; };
 		E49A6EB9296774D600F2A5D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49A6EB8296774D600F2A5D1 /* SceneDelegate.swift */; };
-		E49A6EBB296774D600F2A5D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49A6EBA296774D600F2A5D1 /* ViewController.swift */; };
 		E49A6EBE296774D600F2A5D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E49A6EBC296774D600F2A5D1 /* Main.storyboard */; };
 		E49A6EC0296774D700F2A5D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E49A6EBF296774D700F2A5D1 /* Assets.xcassets */; };
 		E49A6EC3296774D700F2A5D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E49A6EC1296774D700F2A5D1 /* LaunchScreen.storyboard */; };
@@ -17,6 +16,7 @@
 		E49A6ECF296779D300F2A5D1 /* schema.graphqls in Resources */ = {isa = PBXBuildFile; fileRef = E49A6ECE296779D300F2A5D1 /* schema.graphqls */; };
 		E49A6ED129677DAE00F2A5D1 /* rocketsQuery.graphql in Resources */ = {isa = PBXBuildFile; fileRef = E49A6ED029677DAE00F2A5D1 /* rocketsQuery.graphql */; };
 		E49A6ED529677F0700F2A5D1 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49A6ED429677F0700F2A5D1 /* NetworkService.swift */; };
+		E49A6ED729677FAD00F2A5D1 /* RocketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49A6ED629677FAD00F2A5D1 /* RocketsViewController.swift */; };
 		E49A6EDA2967804B00F2A5D1 /* SpaceXAPI in Frameworks */ = {isa = PBXBuildFile; productRef = E49A6ED92967804B00F2A5D1 /* SpaceXAPI */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +24,6 @@
 		E49A6EB3296774D600F2A5D1 /* ExampleApolloGraphQL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleApolloGraphQL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49A6EB6296774D600F2A5D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E49A6EB8296774D600F2A5D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E49A6EBA296774D600F2A5D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E49A6EBD296774D600F2A5D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E49A6EBF296774D700F2A5D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E49A6EC2296774D700F2A5D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -33,6 +32,7 @@
 		E49A6ED029677DAE00F2A5D1 /* rocketsQuery.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = rocketsQuery.graphql; sourceTree = "<group>"; };
 		E49A6ED329677E9C00F2A5D1 /* SpaceXAPI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SpaceXAPI; sourceTree = "<group>"; };
 		E49A6ED429677F0700F2A5D1 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		E49A6ED629677FAD00F2A5D1 /* RocketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +71,7 @@
 			children = (
 				E49A6EB6296774D600F2A5D1 /* AppDelegate.swift */,
 				E49A6EB8296774D600F2A5D1 /* SceneDelegate.swift */,
-				E49A6EBA296774D600F2A5D1 /* ViewController.swift */,
+				E49A6ED629677FAD00F2A5D1 /* RocketsViewController.swift */,
 				E49A6ED429677F0700F2A5D1 /* NetworkService.swift */,
 				E49A6ECD2967797100F2A5D1 /* GraphQL */,
 				E49A6EBC296774D600F2A5D1 /* Main.storyboard */,
@@ -186,7 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E49A6EBB296774D600F2A5D1 /* ViewController.swift in Sources */,
+				E49A6ED729677FAD00F2A5D1 /* RocketsViewController.swift in Sources */,
 				E49A6EB7296774D600F2A5D1 /* AppDelegate.swift in Sources */,
 				E49A6ED529677F0700F2A5D1 /* NetworkService.swift in Sources */,
 				E49A6EB9296774D600F2A5D1 /* SceneDelegate.swift in Sources */,
