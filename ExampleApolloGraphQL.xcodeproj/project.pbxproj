@@ -16,6 +16,7 @@
 		E49A6ECC296777B100F2A5D1 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = E49A6ECB296777B100F2A5D1 /* Apollo */; };
 		E49A6ECF296779D300F2A5D1 /* schema.graphqls in Resources */ = {isa = PBXBuildFile; fileRef = E49A6ECE296779D300F2A5D1 /* schema.graphqls */; };
 		E49A6ED129677DAE00F2A5D1 /* rocketsQuery.graphql in Resources */ = {isa = PBXBuildFile; fileRef = E49A6ED029677DAE00F2A5D1 /* rocketsQuery.graphql */; };
+		E49A6EDA2967804B00F2A5D1 /* SpaceXAPI in Frameworks */ = {isa = PBXBuildFile; productRef = E49A6ED92967804B00F2A5D1 /* SpaceXAPI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		E49A6EC4296774D700F2A5D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E49A6ECE296779D300F2A5D1 /* schema.graphqls */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = schema.graphqls; sourceTree = "<group>"; };
 		E49A6ED029677DAE00F2A5D1 /* rocketsQuery.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = rocketsQuery.graphql; sourceTree = "<group>"; };
+		E49A6ED329677E9C00F2A5D1 /* SpaceXAPI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SpaceXAPI; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +39,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E49A6ECC296777B100F2A5D1 /* Apollo in Frameworks */,
+				E49A6EDA2967804B00F2A5D1 /* SpaceXAPI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,8 +49,10 @@
 		E49A6EAA296774D600F2A5D1 = {
 			isa = PBXGroup;
 			children = (
+				E49A6ED229677E9C00F2A5D1 /* Packages */,
 				E49A6EB5296774D600F2A5D1 /* ExampleApolloGraphQL */,
 				E49A6EB4296774D600F2A5D1 /* Products */,
+				E49A6ED82967804B00F2A5D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +88,21 @@
 			path = GraphQL;
 			sourceTree = "<group>";
 		};
+		E49A6ED229677E9C00F2A5D1 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				E49A6ED329677E9C00F2A5D1 /* SpaceXAPI */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		E49A6ED82967804B00F2A5D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -101,6 +121,7 @@
 			name = ExampleApolloGraphQL;
 			packageProductDependencies = (
 				E49A6ECB296777B100F2A5D1 /* Apollo */,
+				E49A6ED92967804B00F2A5D1 /* SpaceXAPI */,
 			);
 			productName = ExampleApolloGraphQL;
 			productReference = E49A6EB3296774D600F2A5D1 /* ExampleApolloGraphQL.app */;
@@ -397,6 +418,10 @@
 			isa = XCSwiftPackageProductDependency;
 			package = E49A6ECA296777B100F2A5D1 /* XCRemoteSwiftPackageReference "apollo-ios" */;
 			productName = Apollo;
+		};
+		E49A6ED92967804B00F2A5D1 /* SpaceXAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SpaceXAPI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
