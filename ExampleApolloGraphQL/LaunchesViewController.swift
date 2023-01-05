@@ -69,7 +69,7 @@ private extension LaunchesViewController {
     func fetchLaunches() {
         let launchFind = LaunchFind(rocket_id: rocket.id ?? .none)
         let query = LaunchesQuery(upcomingFind: .some(launchFind), pastFind: .some(launchFind))
-        NetworkService.shared.apollo.fetch(query: query) { [weak self] result in
+        NetworkService.shared.apollo.fetch(query: query, cachePolicy: .returnCacheDataAndFetch) { [weak self] result in
             switch result {
             case .success(let value):
                 self?.launches = [
