@@ -48,7 +48,7 @@ final class RocketsViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "RocketLaunchesSegue", sender: rockets[indexPath.row])
+        performSegue(withIdentifier: "LaunchesSegue", sender: rockets[indexPath.row])
     }
 }
 

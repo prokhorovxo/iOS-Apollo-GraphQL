@@ -19,6 +19,7 @@
 		E49A6ED729677FAD00F2A5D1 /* RocketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49A6ED629677FAD00F2A5D1 /* RocketsViewController.swift */; };
 		E49A6EDA2967804B00F2A5D1 /* SpaceXAPI in Frameworks */ = {isa = PBXBuildFile; productRef = E49A6ED92967804B00F2A5D1 /* SpaceXAPI */; };
 		E49A6EDC2967841C00F2A5D1 /* launchesQuery.graphql in Resources */ = {isa = PBXBuildFile; fileRef = E49A6EDB2967841C00F2A5D1 /* launchesQuery.graphql */; };
+		E49A6EDE296784AB00F2A5D1 /* LaunchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49A6EDD296784AB00F2A5D1 /* LaunchesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		E49A6ED429677F0700F2A5D1 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		E49A6ED629677FAD00F2A5D1 /* RocketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketsViewController.swift; sourceTree = "<group>"; };
 		E49A6EDB2967841C00F2A5D1 /* launchesQuery.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = launchesQuery.graphql; sourceTree = "<group>"; };
+		E49A6EDD296784AB00F2A5D1 /* LaunchesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				E49A6EB6296774D600F2A5D1 /* AppDelegate.swift */,
 				E49A6EB8296774D600F2A5D1 /* SceneDelegate.swift */,
 				E49A6ED629677FAD00F2A5D1 /* RocketsViewController.swift */,
+				E49A6EDD296784AB00F2A5D1 /* LaunchesViewController.swift */,
 				E49A6ED429677F0700F2A5D1 /* NetworkService.swift */,
 				E49A6ECD2967797100F2A5D1 /* GraphQL */,
 				E49A6EBC296774D600F2A5D1 /* Main.storyboard */,
@@ -192,6 +195,7 @@
 			files = (
 				E49A6ED729677FAD00F2A5D1 /* RocketsViewController.swift in Sources */,
 				E49A6EB7296774D600F2A5D1 /* AppDelegate.swift in Sources */,
+				E49A6EDE296784AB00F2A5D1 /* LaunchesViewController.swift in Sources */,
 				E49A6ED529677F0700F2A5D1 /* NetworkService.swift in Sources */,
 				E49A6EB9296774D600F2A5D1 /* SceneDelegate.swift in Sources */,
 			);
