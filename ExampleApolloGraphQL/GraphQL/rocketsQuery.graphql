@@ -1,0 +1,12 @@
+query RocketsQuery {
+  rockets {
+    id
+    name
+    height {
+      meters
+    }
+    mass {
+      kg
+    }
+  }
+}
