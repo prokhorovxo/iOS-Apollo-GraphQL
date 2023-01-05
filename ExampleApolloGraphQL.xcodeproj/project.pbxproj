@@ -18,6 +18,7 @@
 		E49A6ED529677F0700F2A5D1 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49A6ED429677F0700F2A5D1 /* NetworkService.swift */; };
 		E49A6ED729677FAD00F2A5D1 /* RocketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49A6ED629677FAD00F2A5D1 /* RocketsViewController.swift */; };
 		E49A6EDA2967804B00F2A5D1 /* SpaceXAPI in Frameworks */ = {isa = PBXBuildFile; productRef = E49A6ED92967804B00F2A5D1 /* SpaceXAPI */; };
+		E49A6EDC2967841C00F2A5D1 /* launchesQuery.graphql in Resources */ = {isa = PBXBuildFile; fileRef = E49A6EDB2967841C00F2A5D1 /* launchesQuery.graphql */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		E49A6ED329677E9C00F2A5D1 /* SpaceXAPI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SpaceXAPI; sourceTree = "<group>"; };
 		E49A6ED429677F0700F2A5D1 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		E49A6ED629677FAD00F2A5D1 /* RocketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketsViewController.swift; sourceTree = "<group>"; };
+		E49A6EDB2967841C00F2A5D1 /* launchesQuery.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = launchesQuery.graphql; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		E49A6ECD2967797100F2A5D1 /* GraphQL */ = {
 			isa = PBXGroup;
 			children = (
+				E49A6EDB2967841C00F2A5D1 /* launchesQuery.graphql */,
 				E49A6ED029677DAE00F2A5D1 /* rocketsQuery.graphql */,
 				E49A6ECE296779D300F2A5D1 /* schema.graphqls */,
 			);
@@ -174,6 +177,7 @@
 				E49A6ED129677DAE00F2A5D1 /* rocketsQuery.graphql in Resources */,
 				E49A6ECF296779D300F2A5D1 /* schema.graphqls in Resources */,
 				E49A6EC3296774D700F2A5D1 /* LaunchScreen.storyboard in Resources */,
+				E49A6EDC2967841C00F2A5D1 /* launchesQuery.graphql in Resources */,
 				E49A6EC0296774D700F2A5D1 /* Assets.xcassets in Resources */,
 				E49A6EBE296774D600F2A5D1 /* Main.storyboard in Resources */,
 			);

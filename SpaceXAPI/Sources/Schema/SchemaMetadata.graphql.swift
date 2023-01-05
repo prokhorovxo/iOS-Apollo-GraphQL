@@ -23,6 +23,7 @@ public enum SchemaMetadata: ApolloAPI.SchemaMetadata {
   public static func objectType(forTypename typename: String) -> Object? {
     switch typename {
     case "Query": return SpaceXAPI.Objects.Query
+    case "Launch": return SpaceXAPI.Objects.Launch
     case "Rocket": return SpaceXAPI.Objects.Rocket
     case "Distance": return SpaceXAPI.Objects.Distance
     case "Mass": return SpaceXAPI.Objects.Mass
