@@ -1,0 +1,5 @@
+fragment LaunchFragment on Launch {
+    id
+    mission_name
+    launch_date_utc
+}

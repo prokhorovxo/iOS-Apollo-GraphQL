@@ -1,12 +1,8 @@
 query LaunchesQuery($upcomingFind: LaunchFind, $pastFind: LaunchFind) {
   launchesUpcoming(find: $upcomingFind) {
-    id
-    mission_name
-    launch_date_utc
+    ...LaunchFragment
   }
   launchesPast(find: $pastFind) {
-    id
-    mission_name
-    launch_date_utc
+    ...LaunchFragment
   }
 }

@@ -20,6 +20,7 @@
 		E49A6EDA2967804B00F2A5D1 /* SpaceXAPI in Frameworks */ = {isa = PBXBuildFile; productRef = E49A6ED92967804B00F2A5D1 /* SpaceXAPI */; };
 		E49A6EDC2967841C00F2A5D1 /* launchesQuery.graphql in Resources */ = {isa = PBXBuildFile; fileRef = E49A6EDB2967841C00F2A5D1 /* launchesQuery.graphql */; };
 		E49A6EDE296784AB00F2A5D1 /* LaunchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49A6EDD296784AB00F2A5D1 /* LaunchesViewController.swift */; };
+		E49A6EE029678CD300F2A5D1 /* launchFragment.graphql in Resources */ = {isa = PBXBuildFile; fileRef = E49A6EDF29678CD300F2A5D1 /* launchFragment.graphql */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		E49A6ED629677FAD00F2A5D1 /* RocketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketsViewController.swift; sourceTree = "<group>"; };
 		E49A6EDB2967841C00F2A5D1 /* launchesQuery.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = launchesQuery.graphql; sourceTree = "<group>"; };
 		E49A6EDD296784AB00F2A5D1 /* LaunchesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchesViewController.swift; sourceTree = "<group>"; };
+		E49A6EDF29678CD300F2A5D1 /* launchFragment.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = launchFragment.graphql; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				E49A6EDB2967841C00F2A5D1 /* launchesQuery.graphql */,
 				E49A6ED029677DAE00F2A5D1 /* rocketsQuery.graphql */,
 				E49A6ECE296779D300F2A5D1 /* schema.graphqls */,
+				E49A6EDF29678CD300F2A5D1 /* launchFragment.graphql */,
 			);
 			path = GraphQL;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				E49A6ED129677DAE00F2A5D1 /* rocketsQuery.graphql in Resources */,
 				E49A6ECF296779D300F2A5D1 /* schema.graphqls in Resources */,
 				E49A6EC3296774D700F2A5D1 /* LaunchScreen.storyboard in Resources */,
+				E49A6EE029678CD300F2A5D1 /* launchFragment.graphql in Resources */,
 				E49A6EDC2967841C00F2A5D1 /* launchesQuery.graphql in Resources */,
 				E49A6EC0296774D700F2A5D1 /* Assets.xcassets in Resources */,
 				E49A6EBE296774D600F2A5D1 /* Main.storyboard in Resources */,

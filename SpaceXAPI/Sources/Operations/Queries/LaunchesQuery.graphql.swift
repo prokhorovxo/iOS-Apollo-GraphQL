@@ -11,18 +11,15 @@ public class LaunchesQuery: GraphQLQuery {
       query LaunchesQuery($upcomingFind: LaunchFind, $pastFind: LaunchFind) {
         launchesUpcoming(find: $upcomingFind) {
           __typename
-          id
-          mission_name
-          launch_date_utc
+          ...LaunchFragment
         }
         launchesPast(find: $pastFind) {
           __typename
-          id
-          mission_name
-          launch_date_utc
+          ...LaunchFragment
         }
       }
-      """
+      """,
+      fragments: [LaunchFragment.self]
     ))
 
   public var upcomingFind: GraphQLNullable<LaunchFind>
@@ -63,14 +60,19 @@ public class LaunchesQuery: GraphQLQuery {
 
       public static var __parentType: ParentType { SpaceXAPI.Objects.Launch }
       public static var __selections: [Selection] { [
-        .field("id", ID?.self),
-        .field("mission_name", String?.self),
-        .field("launch_date_utc", Date?.self),
+        .fragment(LaunchFragment.self),
       ] }
 
       public var id: ID? { __data["id"] }
       public var mission_name: String? { __data["mission_name"] }
       public var launch_date_utc: Date? { __data["launch_date_utc"] }
+
+      public struct Fragments: FragmentContainer {
+        public let __data: DataDict
+        public init(data: DataDict) { __data = data }
+
+        public var launchFragment: LaunchFragment { _toFragment() }
+      }
     }
 
     /// LaunchesPast
@@ -82,14 +84,19 @@ public class LaunchesQuery: GraphQLQuery {
 
       public static var __parentType: ParentType { SpaceXAPI.Objects.Launch }
       public static var __selections: [Selection] { [
-        .field("id", ID?.self),
-        .field("mission_name", String?.self),
-        .field("launch_date_utc", Date?.self),
+        .fragment(LaunchFragment.self),
       ] }
 
       public var id: ID? { __data["id"] }
       public var mission_name: String? { __data["mission_name"] }
       public var launch_date_utc: Date? { __data["launch_date_utc"] }
+
+      public struct Fragments: FragmentContainer {
+        public let __data: DataDict
+        public init(data: DataDict) { __data = data }
+
+        public var launchFragment: LaunchFragment { _toFragment() }
+      }
     }
   }
 }
